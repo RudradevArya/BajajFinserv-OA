@@ -1,0 +1,467 @@
+
+> bajaj@1.0.0 test
+> jest
+
+  console.log
+    
+    TC 1 - Response Data:
+
+      at log (userApi.test.js:30:13)
+
+  console.log
+    {
+      "is_success": false,
+      "message": "phoneNumber has already been used."
+    }
+
+      at log (userApi.test.js:31:13)
+
+  console.log
+    
+    TC 2 - Response Data:
+
+      at log (userApi.test.js:30:13)
+
+  console.log
+    {
+      "is_success": false,
+      "message": "phoneNumber has already been used."
+    }
+
+      at log (userApi.test.js:31:13)
+
+  console.log
+    
+    TC 3 - Response Data:
+
+      at log (userApi.test.js:30:13)
+
+  console.log
+    {
+      "is_success": false,
+      "message": "phoneNumber has already been used."
+    }
+
+      at log (userApi.test.js:31:13)
+
+  console.log
+    
+    TC 4 - Response Data:
+
+      at log (userApi.test.js:30:13)
+
+  console.log
+    {
+      "is_success": false,
+      "message": "Oh no, looks like this user already exists. Please try to play with the data you're sending and try to break the API."
+    }
+
+      at log (userApi.test.js:31:13)
+
+  console.log
+    
+    TC 5 - Response Data:
+
+      at log (userApi.test.js:30:13)
+
+  console.log
+    {
+      "is_success": false,
+      "message": "authentication failed."
+    }
+
+      at log (userApi.test.js:31:13)
+
+  console.log
+    
+    TC 6 - Response Data:
+
+      at log (userApi.test.js:30:13)
+
+  console.log
+    {
+      "is_success": true,
+      "message": "Congratulations, you have successfully broken through the API. phoneNumber has to be in a proper format."
+    }
+
+      at log (userApi.test.js:31:13)
+
+  console.log
+    
+    TC 7 - Response Data:
+
+      at log (userApi.test.js:30:13)
+
+  console.log
+    {
+      "is_success": true,
+      "message": "Congratulations, you have successfully broken through the API. emailId is not in the proper format."
+    }
+
+      at log (userApi.test.js:31:13)
+
+  console.log
+    
+    TC 8 - Response Data:
+
+      at log (userApi.test.js:30:13)
+
+  console.log
+    {
+      "is_success": true,
+      "message": "Congratulations, you have successfully broken through the API. emailId is not in the proper format."
+    }
+
+      at log (userApi.test.js:31:13)
+
+  console.log
+    
+    TC 9 - Response Data:
+
+      at log (userApi.test.js:30:13)
+
+  console.log
+    {
+      "is_success": false,
+      "message": "phoneNumber has already been used."
+    }
+
+      at log (userApi.test.js:31:13)
+
+  console.log
+    
+    TC 10 - Response Data:
+
+      at log (userApi.test.js:30:13)
+
+  console.log
+    {
+      "is_success": false,
+      "message": "phoneNumber has already been used."
+    }
+
+      at log (userApi.test.js:31:13)
+
+  console.log
+    
+    TC 11 - Response Data:
+
+      at log (userApi.test.js:30:13)
+
+  console.log
+    {
+      "is_success": false,
+      "message": "phoneNumber has already been used."
+    }
+
+      at log (userApi.test.js:31:13)
+
+  console.log
+    
+    TC 12 - Response Data:
+
+      at log (userApi.test.js:30:13)
+
+  console.log
+    {
+      "is_success": true,
+      "message": "Congratulations, you have successfully broken through the API. phoneNumber has to be in a proper format."
+    }
+
+      at log (userApi.test.js:31:13)
+
+  console.log
+    
+    TC 13 - Response Data:
+
+      at log (userApi.test.js:30:13)
+
+  console.log
+    {
+      "is_success": false,
+      "message": "phoneNumber has already been used."
+    }
+
+      at log (userApi.test.js:31:13)
+
+  console.log
+    
+    TC 14 - Response Data:
+
+      at log (userApi.test.js:30:13)
+
+  console.log
+    {
+      "is_success": false,
+      "message": "phoneNumber has already been used."
+    }
+
+      at log (userApi.test.js:31:13)
+
+  console.log
+    
+    TC 15 - Response Data:
+
+      at log (userApi.test.js:30:13)
+
+  console.log
+    {
+      "is_success": false,
+      "message": "phoneNumber has already been used."
+    }
+
+      at log (userApi.test.js:31:13)
+
+  console.log
+    
+    TC 16 - Response Data:
+
+      at log (userApi.test.js:30:13)
+
+  console.log
+    {
+      "is_success": true,
+      "message": "Congratulations, you have successfully broken through the API. phoneNumber has to be in a proper format."
+    }
+
+      at log (userApi.test.js:31:13)
+
+  console.log
+    
+    TC 17 - Response Data:
+
+      at log (userApi.test.js:30:13)
+
+  console.log
+    {
+      "is_success": false,
+      "message": "phoneNumber has already been used."
+    }
+
+      at log (userApi.test.js:31:13)
+
+FAIL ./userApi.test.js
+  User Creation API Tests
+    ✕ 1. Successfully create a new user (306 ms)
+    ✓ 2. Fail to create user with missing firstName (51 ms)
+    ✓ 3. Fail to create user with duplicate phone number (101 ms)
+    ✓ 4. Fail to create user with duplicate email (120 ms)
+    ✓ 5. Fail to create user without roll number (50 ms)
+    ✓ 6. Validate phone number format (68 ms)
+    ✕ 7. Validate email format (70 ms)
+    ✕ 8. Handle very long input strings (71 ms)
+    ✕ 9. Handle special characters in names (54 ms)
+    ✕ 10. Handle whitespace in input fields (55 ms)
+    ✓ 11. Check case sensitivity for email addresses (129 ms)
+    ✓ 12. Test boundary values for phone number (100 ms)
+    ✓ 13. Handle empty strings for required fields (52 ms)
+    ✓ 14. Handle numeric values in name fields (62 ms)
+    ✓ 15. Prevent SQL injection in input fields (70 ms)
+    ✓ 16. Handle international phone numbers (85 ms)
+    ✕ 17. Handle Unicode characters in names (55 ms)
+    ✓ 18. Check minimum length requirement for names (50 ms)
+    ✓ 19. Check maximum length for email address (49 ms)
+    ✕ 20. Handle trailing/leading spaces in email (69 ms)
+    ✓ 21. Prevent HTML injection in input fields (68 ms)
+    ✓ 22. Handle null values for required fields (70 ms)
+    ✕ 23. Test with different Content-Type header (65 ms)
+    ✕ 24. Create users with duplicate first and last names (138 ms)
+    ✓ 25. Handle phone number with special characters (65 ms)
+    ✕ 26. Validate email with multiple @ symbols (66 ms)
+    ✓ 27. Test with extremely short roll number (70 ms)
+    ✓ 28. Test with extremely long roll number (50 ms)
+    ✓ 29. Handle non-ASCII characters in email address (65 ms)
+    ✕ 30. Send payload with additional unexpected fields (63 ms)
+
+  ● User Creation API Tests › 1. Successfully create a new user
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 201
+    Received: 400
+
+      46 |   const response = await createUser(payload);
+      47 |   printResponseData('TC 1', response);
+    > 48 |   expect(response.status).toBe(201);
+         |                           ^
+      49 | });
+      50 |
+      51 |  // 2. Missing Required Field
+
+      at Object.toBe (userApi.test.js:48:27)
+
+  ● User Creation API Tests › 7. Validate email format
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 400
+    Received: 500
+
+      139 |   const response = await createUser(payload);
+      140 |   printResponseData('TC 7', response);
+    > 141 |   expect(response.status).toBe(400);
+          |                           ^
+      142 | });
+      143 |
+      144 | // 8. Long Input Strings
+
+      at Object.toBe (userApi.test.js:141:27)
+
+  ● User Creation API Tests › 8. Handle very long input strings
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 400
+    Received: 500
+
+      152 |   const response = await createUser(payload);
+      153 |   printResponseData('TC 8', response);
+    > 154 |   expect(response.status).toBe(400);
+          |                           ^
+      155 | });
+      156 |
+      157 | // 9. Special Characters in Names
+
+      at Object.toBe (userApi.test.js:154:27)
+
+  ● User Creation API Tests › 9. Handle special characters in names
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 201
+    Received: 400
+
+      165 |   const response = await createUser(payload);
+      166 |   printResponseData('TC 9', response);
+    > 167 |   expect(response.status).toBe(201);
+          |                           ^
+      168 | });
+      169 |
+      170 | // 10. Whitespace Handling
+
+      at Object.toBe (userApi.test.js:167:27)
+
+  ● User Creation API Tests › 10. Handle whitespace in input fields
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 201
+    Received: 400
+
+      178 |   const response = await createUser(payload);
+      179 |   printResponseData('TC 10', response);
+    > 180 |   expect(response.status).toBe(201);
+          |                           ^
+      181 | });
+      182 |
+      183 | // 11. Case Sensitivity in Email
+
+      at Object.toBe (userApi.test.js:180:27)
+
+  ● User Creation API Tests › 17. Handle Unicode characters in names
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 201
+    Received: 400
+
+      278 |   const response = await createUser(payload);
+      279 |   printResponseData('TC 17', response);
+    > 280 |   expect(response.status).toBe(201);
+          |                           ^
+      281 | });
+      282 |
+      283 | // 18. Minimum Length for Names
+
+      at Object.toBe (userApi.test.js:280:27)
+
+  ● User Creation API Tests › 20. Handle trailing/leading spaces in email
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 201
+    Received: 500
+
+      314 |   };
+      315 |   const response = await createUser(payload);
+    > 316 |   expect(response.status).toBe(201); // Expecting 201 if spaces are trimmed
+          |                           ^
+      317 | });
+      318 |
+      319 | // 21. HTML Injection Attempt
+
+      at Object.toBe (userApi.test.js:316:27)
+
+  ● User Creation API Tests › 23. Test with different Content-Type header
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 415
+    Received: 400
+
+      358 |     expect(response.status).toBe(415); // Unsupported Media Type
+      359 |   } catch (error) {
+    > 360 |     expect(error.response.status).toBe(415);
+          |                                   ^
+      361 |   }
+      362 | });
+      363 |
+
+      at Object.toBe (userApi.test.js:360:35)
+
+  ● User Creation API Tests › 24. Create users with duplicate first and last names
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 201
+    Received: 400
+
+      379 |   };
+      380 |   const response = await createUser(payload2);
+    > 381 |   expect(response.status).toBe(201); // Expecting 201 as names can be duplicate
+          |                           ^
+      382 | });
+      383 |
+      384 | // 25. Phone Number with Special Characters
+
+      at Object.toBe (userApi.test.js:381:27)
+
+  ● User Creation API Tests › 26. Validate email with multiple @ symbols
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 400
+    Received: 500
+
+      403 |   };
+      404 |   const response = await createUser(payload);
+    > 405 |   expect(response.status).toBe(400);
+          |                           ^
+      406 | });
+      407 |
+      408 | // 27. Extremely Short Roll Number
+
+      at Object.toBe (userApi.test.js:405:27)
+
+  ● User Creation API Tests › 30. Send payload with additional unexpected fields
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 201
+    Received: 400
+
+      452 |   };
+      453 |   const response = await createUser(payload);
+    > 454 |   expect(response.status).toBe(201); // Expecting 201 if extra fields are ignored
+          |                           ^
+      455 | });
+      456 |
+      457 |  
+
+      at Object.toBe (userApi.test.js:454:27)
+
+Test Suites: 1 failed, 1 total
+Tests:       11 failed, 19 passed, 30 total
+Snapshots:   0 total
+Time:        2.644 s, estimated 4 s
+Ran all test suites.
